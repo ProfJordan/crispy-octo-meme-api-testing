@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Testing</title>
+<script type="text/javascript" src="chocolat.js"></script>
+<link rel="stylesheet" href="chocolat.css" type="text/css" media="screen" >
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div id="result-container"></div>
+    <script src="chocolatelist.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        Chocolat(document.querySelectorAll('.chocolat-parent .chocolat-image'))
+    })
+    </script>
+</body>
+</html>
